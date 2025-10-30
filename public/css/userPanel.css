@@ -1,0 +1,158 @@
+#user-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 50px 70px 10px 80px;
+    color: white;
+}
+
+/* Style commun pour tous les boutons */
+.button-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #2b2b2b;
+    position: relative;
+    border: 1px solid #709d70;
+    color: #ddd;
+    transition: all 0.2s ease;
+    text-align: center;
+    min-width: 60px;
+}
+
+.button-user:hover {
+    background-color: #3a3a3a;
+    color: white;
+    box-shadow: 0 0 10px rgba(10, 255, 10, 0.5);
+}
+
+/* Bouton de déconnexion */
+.button-deconnexion {
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #b03232;
+    color: white;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+/* Bouton de connexion */
+.button-connexion {
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: #327cb0;
+    color: white;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.button-connexion:hover, .button-deconnexion:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(10, 255, 10, 0.5);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 1000px) {
+    #user-panel {
+        margin: 20px 9px 10px 9px;
+        justify-content: flex-end;
+    }
+
+    .button-user,
+    .button-connexion,
+    .button-deconnexion {
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .infosSpecifiques {
+        margin-right: 20px;
+        min-width: fit-content;
+    }
+}
+@media (max-width: 900px) {
+    #user-panel a#userName {
+        display: NONE;
+    }
+
+}
+
+@media (max-width: 669px) {
+    #user-panel {
+        margin: 10px 5px;
+        justify-content: center;
+    }
+
+    .button-user,
+    .button-connexion,
+    .button-deconnexion {
+        flex: 1 1 calc(33.33% - 10px);
+        min-width: 0;
+        padding: 5px;
+        font-size: 10px;
+    }
+    #user-panel a#userName {
+        display: NONE;
+    }
+}
+
+@media (max-width: 480px) {
+    #user-panel {
+        margin: 5px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 35px;
+    }
+
+    .button-user,
+    .button-connexion,
+    .button-deconnexion {
+        flex: 1 1 calc(50% - 5px);
+        min-width: 0;
+        font-size: 9px;
+        padding: 4px;
+        margin: 2px;
+    }
+
+    .button-deconnexion {
+        flex: 1 1 100%;
+        margin-top: 5px;
+    }
+
+}
+
+
+@media (max-width: 376px) {
+    #user-panel {
+        gap: 2px;
+        margin: 3px;
+
+    }
+
+    .button-user,
+    .button-connexion,
+    .button-deconnexion {
+        flex: 1 1 100%;
+        font-size: 9px;
+        padding: 3px;
+        margin: 1px 0;
+    }
+
+
+}

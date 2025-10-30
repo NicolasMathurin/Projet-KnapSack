@@ -1,0 +1,160 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sellMain {
+    width: 430px;
+    height: 230px;
+    background-color: #222;
+    border-radius: 20px;
+    padding: 10px;
+    color: #988847;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    z-index: 2;
+    box-shadow: 0 0 10px #3b3d3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.supp{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #222;
+    color: #709d70;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #709d70;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.supp:hover{
+    background-color: #d01e1e;
+    color: #f6f4f4;
+    text-decoration: none;
+    box-shadow: 0 0 10px #4f1111;
+    cursor: pointer;
+}
+.flexTop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexTop h1  {
+    margin-left: 10px;
+    font-size: 28px;
+    text-decoration-line: underline;
+}
+.sellMain p{
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+
+
+.bottom{
+    align-items: flex-end ;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.button {
+
+    background-color: #222;
+    color: #709d70;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #709d70;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    text-align: left;
+    gap: 6px;
+
+}
+
+.value{
+    width: 40px;
+    -moz-appearance: textfield;
+    background-color: #222;
+    color: #988847;
+    border: 1px solid #709d70  ;
+    border-radius: 6px;
+    text-align: center;
+}
+*/
+/* Supprime les fleches du input type*/
+/*
+.value::-webkit-inner-spin-button,
+.value::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.button:hover, .sell:hover {
+    background-color: #0aff0a;
+    color: #222;
+    text-decoration: none;
+    box-shadow: 0 0 10px #0aff0a;
+    cursor: pointer;
+
+}
+.sell{
+
+    padding: 5px 3px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #222;
+    color: #709d70;
+    border-radius: 10px;
+    border: 1px solid #709d70;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+    align-items: flex-end;
+}
+.btn-disabled {
+    color: #999 !important;
+    cursor: not-allowed;
+}
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color:#e02189;
+    color: #fff;
+    border:0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+
+}
+.popup button:hover{
+    cursor: pointer;
+}
+@media (max-width: 850px ) {
+    .articleContainer {
+        width: fit-content;
+    }
+}
+*/
